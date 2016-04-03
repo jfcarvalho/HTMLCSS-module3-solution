@@ -1,0 +1,51 @@
+#header-nav
+{
+	height:50px;
+	
+}
+
+#header-title
+{
+	font-size:25px;
+	margin-top:15px;
+}
+
+#secdiv
+{
+	background-color:#6E6E6E;
+	padding: 10px 5px 15px 20px;
+	margin-top:5px;
+	/*margin-right: 80px; */
+}
+#bs-example-navbar-collapse-1
+{
+	margin-top:-19px;
+	/*-- margin-left:100px; */
+	background-color:#E6E6E6;
+
+}
+
+@media (min-width:992px) 
+{
+	#secdiv
+	{
+		margin-left:80px;
+	}
+}
+
+@media (min-width:768px) and (max-width:991px)
+{
+	#secdiv
+	{
+		margin-left:150px;
+	}
+}
+
+@media (max-width:767px)
+{
+	#secdiv
+	{
+		margin-left:100px;
+	}
+}
+
